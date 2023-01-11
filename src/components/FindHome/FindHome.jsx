@@ -31,7 +31,7 @@ const FindHome = () => {
                                 <option value="">2</option>
                             </select>
                         </fieldset>
-                        <Button block target='google.com' size='large'>Default</Button>
+                        <Button block target='google.com' size='large'>Найти</Button>
                     </form>
                 </div>
             </div>

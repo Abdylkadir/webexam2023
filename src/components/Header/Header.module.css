@@ -2,7 +2,7 @@
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -23,12 +23,12 @@
     text-decoration: none;
     font-size: 30px;
     color: #191B18;
+    margin-right: 60px;
 }
 
 .header__list {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
     padding: 0;
     list-style-type: none;
     margin: 0 auto;
@@ -53,6 +53,7 @@
 } */
 .header__social {
     display: flex;
+    align-items: center;
 }
 
 .header__icon {
@@ -63,4 +64,31 @@
     display: block;
     width: 20px;
     height: 20px;
+}
+
+.header__registr {
+    display: flex;
+    align-items: center;
+}
+
+.header__user img{
+    margin-left: 60px;
+    display: block;
+    height: 20px;
+    width: 20px;
+}
+
+.header__name {
+    margin-left: 10px;
+}
+
+.header__log {
+    display: block;
+    margin-left:30px;
+    color: #000;
+    text-decoration: none;
+}
+
+.header__search {
+    margin-left: 10px;
 }
