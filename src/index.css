@@ -383,17 +383,29 @@ fieldset {
 }
 
 .room__column {
-    margin-top: 40px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
 }
 
 .room__row {
+    flex: 0 1 50%;
     display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.room__row-sec {
+    display: flex;
+}
+
+.room__column {
+    flex: 0 1 50%;
 }
 
 .room__images {
     margin-top: 20px;
+
 }
 
 .room__title {
@@ -401,4 +413,32 @@ fieldset {
     font-size: 30px;
     line-height: 39px;
     font-weight: 400;
+    max-width: 400px;
 }
+
+.row-sec__img-big img {
+    width: 100%;
+}
+
+
+.row-sec__img{
+    flex: 0 1 50%;
+    padding: 10px;
+}
+
+
+
+.row-sec {
+    
+}
+
+.row-sec__img img{
+    max-width: 100%;
+}
+
+
+.row-sec__column {
+    display: flex;
+}
+
+

@@ -14,7 +14,7 @@ const AboutRoom = () => {
                     <div className="room__row">
                         <div className="room__content">
                             <h1 className="room__title">Портлендский крошечный дом (Альберта искусств)</h1>
-                            <span>(230 Ratings)</span> <FeedBack />
+                            <span>(230 Отзывов)</span> <FeedBack />
                         </div>
                         <div className="room__btn">
                             <Button type="primary" ghost size='large'>
@@ -22,12 +22,20 @@ const AboutRoom = () => {
                             </Button>
                         </div>
                     </div>
-                    {/* <div className="room__row">
-                        <div className="room__img-big"><img src={img1} alt="room-image1" /></div>
-                        <div className="room__images">
-                            <div className="room__img"><img src={img2} alt="room-image2" /></div>
+
+
+                    <div className="row-sec">
+                        <div className="row-sec__items">
+                            <div className="row-sec__column">
+                                <div className="row-sec__img"><img src={img2} alt="room-image1" /></div>
+                                <div className="row-sec__img"><img src={img3} alt="room-image1" /></div>
+                            </div>
+                            <div className="row-sec__column">
+                                <div className="row-sec__img"><img src={img4} alt="room-image1" /></div>
+                                <div className="row-sec__img"><img src={img5} alt="room-image1" /></div>
+                            </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </section>
