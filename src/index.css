@@ -376,5 +376,29 @@ fieldset {
     color: inherit;
   }
 
+/* ---------------------AboutRomm------------------------------ */
 
+.room {
 
+}
+
+.room__column {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.room__row {
+    display: flex;
+}
+
+.room__images {
+    margin-top: 20px;
+}
+
+.room__title {
+    color: #191B18;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+}
