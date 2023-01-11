@@ -1,13 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Red+Hat+Display:wght@700&family=Roboto&family=Roboto+Mono:wght@300;400;500;700&family=Spinnaker&display=swap');
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "Spinnaker", Sans-serif;
+    color: #191B18;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ------------------not-found-------------------------- */
+
+.not-found {
+}
+
+.not-found__img {
+    display: flex;
+    width: 260px;
+    display: flex;
+    margin: 150px auto 0;
+}
+
+.not-found__text {
+    margin-top: 20px;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+
+
+
+/* -------------offer--------------------- */
+
+.offer {
+    font-family: "Spinnaker";
+    font-weight: 400;
+    background-image: url(@components/Offer/img/offer.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    padding: 230px 0 130px 0 ;
+    position: relative;
+    color: #fff;
+}
+
+.offer__bg {
+    position: absolute;
+    background-color: #404040FA ;
+    width: 43%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.offer__content {
+    position: relative;
+    z-index: 100;
+}
+
+.offer__subtitle {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.offer__title {
+    font-size: 54px;
+    line-height: 65px;
+    letter-spacing: 1px;
+    max-width: 340px;
+}
+
+.offer__text {
+    max-width: 340px;
+    font-family: inherit;
+    font-style: inherit;
+    color: inherit;
+    line-height: inherit;
+    letter-spacing: 1.5px;
+}
+
+.offer__btn {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 54px;
+    height: 54px;
+    background-color: #fff;
+    display: inline-block;
+    padding: 0 50px;
+    color: #191B18;
+    margin-top: 20px;
+}
+
+/* ---------------------Welcome-------------------------- */
+.welcome {
+    background-color: #EAEAEA;
+}
+
+.welcome__title {
+    color: #191B18;
+    font-size: 30px;
+    line-height: 39px;
+    max-width: 500px;
+    font-weight: 400;
+}
+
+.welcome__text {
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    color: inherit;
+    line-height: inherit;
+    font-size: 18px
+}
+
+.welcome__img a{
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+.welcome__body {
+    display: flex;
+    padding: 130px 0px;
+}
+
+.welcome__offer {
+    margin: 100px 0 0 100px;
+}
+
+.welcome__mark {
+    display: inline-block;
+    height: 40px;
+    background-color: #3E3E3E;  
+    padding: 0 20px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 0 45px 0;
+    
+}
+
+.welcome__mark {
+    text-decoration: none;
+}
+
+.welcome__btn {
+    background-image: url('./components/Welcome/img/arrow-right.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: inherit;
+}
+
+.welcome__btn:hover {
+    text-decoration: underline;
+}
+
+
+/* ------------find-home------------ */
+
+.find-home {
+    background-image: url(@components/FindHome/img/1.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    backdrop-filter: brightness(40%);
+    color: #fff;
+    padding: 100px 0 130px 0;
+}
+
+.find-home:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .5);
+    position: relative;
+    z-index: 10;
+}
+
+.find-home__bg {
+    position: absolute;
+    background-color: #404040FA ;
+    width: 43%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+.find-home__body {
+    display: inline-block;
+    background-color: #4D4D4D;
+    padding: 60px 90px 60px 60px;
+}
+
+.find-home__title {
+    font-size:40px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.find-home__text {
+    max-width: 336px;
+    margin-bottom: 30px;
+
+}
+
+.find__home__form {
+
+}
+
+.form {
+
+}
+
+.form__date input{
+    min-width: 100%;
+    display: block;
+    padding: 20px 10px;
+    color: #fff;
+    outline: none;
+    border: 1px solid #fff;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+
+
+.form__amount {
+}
+
+.form__adults {
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 49%;
+    border: 1px solid #fff;
+    margin-right: auto;
+    padding: 20px 10px;
+    color: #fff
+}
+.form__children {
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 49%;
+    border: 1px solid #fff;
+    padding: 20px 10px;
+    color: #fff
+}
+
+.find-home__btn {
+    color: #fff;
 }
