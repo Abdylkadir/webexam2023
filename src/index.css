@@ -35,12 +35,14 @@ fieldset {
 
 /* --------Search--------------- */
 .serch-form {
-    margin-left: 70px;
+    
+    
 }
 
 .serch-form__item {
     width:400px;
-    
+    margin: 0 auto;
+    display: flex;
 }
 
     .serch-form__search {

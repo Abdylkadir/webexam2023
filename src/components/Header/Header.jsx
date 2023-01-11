@@ -18,7 +18,7 @@ const Header = () => {
                         <ul className={styles.header__list}>
                             <li><NavLink to="/">Главаня страница</NavLink></li>
                             <li><NavLink to="/rooms">Комнаты</NavLink></li>
-                            <li><NavLink to="">О нас</NavLink></li>
+                            <li><NavLink to="github.com/Abdylkadir/webexam2023">О нас</NavLink></li>
                             <li><NavLink to="">Обслуживание</NavLink></li>
                         </ul>
                         <div className={styles.header__social}>

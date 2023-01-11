@@ -1,11 +1,12 @@
 import Searching from '@components/Searching'
-import FeedBack from "@components/FeedBack"
+
+import AboutRoom from '../../components/AboutRoom';
 
 const RoomsPage = () => {
     return (
         <>
             <Searching />
-            <FeedBack />
+            <AboutRoom />
         </>
 
     )
