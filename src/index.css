@@ -222,7 +222,7 @@ fieldset {
 .find-home__body {
     display: inline-block;
     background-color: #4D4D4D;
-    padding: 60px 90px 60px 60px;
+    padding: 60px;
 }
 
 .find-home__title {
@@ -246,9 +246,9 @@ fieldset {
 }
 
 .form__date input{
-    min-width: 100%;
+    width: 100%;
     display: block;
-    padding: 20px 10px;
+    padding: 20px 0;
     color: #fff;
     outline: none;
     border: 1px solid #fff;
@@ -259,6 +259,7 @@ fieldset {
 
 
 .form__amount {
+    margin-bottom: 20px;
 }
 
 .form__adults {

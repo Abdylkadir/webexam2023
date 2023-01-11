@@ -1,4 +1,5 @@
-import Button from '@mui/material/Button';
+import { Button, Space } from 'antd';
+
 console.log(Button)
 
 const FindHome = () => {
@@ -30,15 +31,12 @@ const FindHome = () => {
                                 <option value="">2</option>
                             </select>
                         </fieldset>
-                        {/* <Button variant="contained" endIcon={<SendIcon />}>
-                            Send
-                        </Button> */}
+                        <Button block target='google.com' size='large'>Default</Button>
                     </form>
                 </div>
             </div>
         </section >
 
-        // <Button variant="outlined">Outlined</Button>
     )
 }
 
