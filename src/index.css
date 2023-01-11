@@ -12,6 +12,10 @@ body {
     padding: 0;
 }
 
+ul,li {
+    list-style: none;
+}
+
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
     padding: 0;
@@ -290,3 +294,60 @@ fieldset {
 .find-home__btn {
     color: #fff;
 }
+
+/* ----Footer----------- */
+    .footer {
+        background-color: #EAEAEA;
+        color: #191B18;
+    }
+  
+  .footer__row {
+    padding: 33px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -15px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .footer__column {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 16.6667%;
+    flex: 0 1 25%;
+  }
+  
+  
+  @media (max-width: 992px) {
+    .footer__column {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 50%;
+              flex: 0 1 50%;
+    }
+  }
+  
+  .footer__label {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.1px;
+    margin: 0 0 20px 0;
+  }
+  
+  .menu-footer__list > *:not(:last-child) {
+    margin: 0 0 10px 0;
+  }
+  
+  .menu-footer__list {
+    padding: 0;
+  }
+
+  .menu-footer__link {
+    font-weight: 600;
+    line-height: 171%;
+    letter-spacing: 0.2px;
+    color: inherit;
+  }
+
+
+

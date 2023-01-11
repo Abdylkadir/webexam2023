@@ -2,6 +2,7 @@ import styles from './HomePage.module.css';
 import Offer from '@components/Offer'
 import Welcome from '@components/Welcome'
 import FindHome from "@components/FindHome"
+import Footer from "@components/Footer"
 
 const HomePage = () => {
     return (
@@ -9,6 +10,7 @@ const HomePage = () => {
             <Offer />
             <Welcome />
             <FindHome />
+            <Footer />
         </main >
     )
 }
