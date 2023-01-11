@@ -34,25 +34,24 @@ fieldset {
 
 
 /* --------Search--------------- */
+.serch-form {
+    margin-left: 70px;
+}
 
-
-form {
+.serch-form__item {
     width:400px;
-    margin:auto;
-    margin-top: 250px;
+    
 }
-input{
-    padding:4px 10px;
-    border:0;
-    font-size:16px;
-}
-    .search {
-    width: 75%;
+
+    .serch-form__search {
+        width: 200px;
     }
-.submit-seach{
+.serch-form__submit-seach{
     width: 70px;
+    padding: 3px;
     background-color: #1c87c9;
     color:#ffffff;
+    border: #1c87c9;
 }
 
 

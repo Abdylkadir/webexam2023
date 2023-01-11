@@ -2,10 +2,12 @@ import styles from './RoomsPage.module.css';
 
 const RoomsPage = () => {
     return (
-        <form className='serch-form'>
-            <input type="text" name="text" className="search" />
-            <input type="submit" name="submit" className="submit-seach" value="Search" />
-        </form>
+        <div className="serch-form">
+            <form className='serch-form__item'>
+                <input type="text" name="text" className="serch-form__search" />
+                <input type="submit" name="submit" className="serch-form__submit-seach" value="Найти" />
+            </form>
+        </div>
     )
 }
 
