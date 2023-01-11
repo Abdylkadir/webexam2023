@@ -1,13 +1,13 @@
-import styles from './RoomsPage.module.css';
+import Searching from '@components/Searching'
+import FeedBack from "@components/FeedBack"
 
 const RoomsPage = () => {
     return (
-        <div className="serch-form">
-            <form className='serch-form__item'>
-                <input type="text" name="text" className="serch-form__search" />
-                <input type="submit" name="submit" className="serch-form__submit-seach" value="Найти" />
-            </form>
-        </div>
+        <>
+            <Searching />
+            <FeedBack />
+        </>
+
     )
 }
 
